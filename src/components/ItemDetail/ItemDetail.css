@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{font-family: 'Source Sans Pro', sans-serif;
+}
+
+.itemdetalle{
+margin-bottom: 40px;
+display: flex;
+flex-direction:row;
+border: 0px;
+padding: 5%;
+
+}
+
+@media only screen and (max-width: 992px){
+    .itemdetalle{
+        flex-direction:column;
+    }
+    .heroDet{
+        width: 100%!important;
+        }
+    .card-body{
+        margin-top: 18px!important;
+        width: 100%!important;
+    }
+}
+
+.parrafo{
+    line-height: 32px;
+}
+
+.detalle{
+    width:100%;
+}
+
+.mainTitle{
+font-size: 4em;
+}
+
+.card-text{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.subt{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.priceDet{
+    margin-top: -12px;
+    font-size: 3em;
+    font-weight: 900;
+    color: #ff5f41;
+}
+
+.ctaDet {
+    height: 60px;
+    width: auto;
+    min-width: 160px;
+    background-color: #64d5c1;
+    border: 0;
+    border-radius: 32px;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.5s ease-out;
+    display: inline-block;
+}
+
+.ctaDet:hover {
+    background-color: #ff5f41;
+    color: #fff;
+    transition: 0.3s ease-in;
+    transform: scale(105%);
+}
+.heroDet{
+width: 55%;
+height: 30%;
+min-height: 700px;
+object-fit: cover;
+border-radius: 20px;
+}
+
+.detBody{
+    padding-left: 32px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ff5f41;
+    gap: 20px;
+}
+
+.volver{
+    background-color: #fff;
+    color: #ff5f41;
+    border: 2px solid;
+    font-size: 18px;
+    width: 140px;
+    padding-right: 20px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.volver:hover{
+    background-color: #fff;
+    border: 2px solid #64d5c1;
+    color: #64d5c1;
+    transition: 0.5s ease-in-out;
+}
+
+.goCart{
+    margin-top: 20px;
+}

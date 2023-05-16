@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3{
+    margin-top: -12px;
+    text-align: left;
+    font-size: 24px;
+}
+
+div{
+    margin: 0 auto;
+}
+
+.cantidad{
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #64d5c1;
+    border: 2px solid #3aa592;
+    transition: 0.3s ease-in-out;
+}
+
+.cantidad:hover{
+    background-color: #fff;
+    color:#64d5c1; 
+    transition: 0.5s ease-in-out;
+}
